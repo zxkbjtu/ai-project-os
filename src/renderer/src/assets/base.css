@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* 防止整个窗口出现滚动条 */
+  font-family: 'Inter', system-ui, sans-serif;
+}
