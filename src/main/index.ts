@@ -106,8 +106,8 @@ ipcMain.handle('create-project', (_, { filename, content }) => {
 ipcMain.handle('chat-with-ai', async (_, { messages }) => {
   // ⚠️ 在这里填入你的配置，主进程里跑非常稳定
   const client = new OpenAI({
-    apiKey: 'sk-PxXFSDladc5WXq1VA2C9D523A094455c82D98a9a5f2d5e82', // 你的 Key
-    baseURL: 'https://one.ocoolai.com/v1',      // 你的 URL (记得带 /v1)
+    apiKey: 'sk-xxx', // 你的 Key
+    baseURL: 'https://xxx.xxx/v1',      // 你的 URL (记得带 /v1)
     // 在主进程不需要 dangerouslyAllowBrowser: true
   })
 
